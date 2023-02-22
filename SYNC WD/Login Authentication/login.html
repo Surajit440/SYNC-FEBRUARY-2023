@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Authentication </title>
+    <link rel="stylesheet" href="login.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet"> 
+    <script src="login.js"></script>
+  </head>
+  <body>
+    <header>
+      <p>Username :- Surajit and Passsword :- Surajitt123</p>
+    </header>
+    <section class="CheckBox">
+      <h1>Login Authentication</h1>
+      <form action="#" method="post" name="authentication" id="authentication" class="authentication" >
+        <label for="username">Enter your username :</label>
+        <br>
+        <input type="text" name="username" id="username" minlength="3" maxlenth="15" pattern="[a-zA-Z0-9]+" required placeholder="Username" />
+        <br>
+        <label for="password">Enter your password :</label>
+        <br>
+        <input type="password" name="password" id="password"   placeholder="Password" minlength="8" maxlength="15" pattern="[a-zA-Z0-9]+" required />
+        <br>
+        <input id="sub" type="submit" value="Submit" onclick="done()" />
+      </form>
+    </section>
+    <center><p>
+      <h3>
+      <div class="made-with-love">
+          Made with
+          &#128151; by
+          <a target="_blank" href="https://www.linkedin.com/in/surajit-das-2a83691b6">Surajit Das</a>
+        </div>
+      </h3>
+      </p>
+  </center>
+  </body>  
+</html>
